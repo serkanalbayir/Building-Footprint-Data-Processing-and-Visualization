@@ -1,4 +1,4 @@
-# Processing and Visualization of Building Footprint Data
+![resim](https://github.com/user-attachments/assets/f0594e60-8879-43b6-80e2-c4e65cfd0145)# Processing and Visualization of Building Footprint Data
 
 This repository contains a Python script for processing and visualizing building footprint data derived from the [Microsoft Global ML Building Footprints](https://github.com/microsoft/GlobalMLBuildingFootprints) project. The script processes GeoJSON data, visualizes it on an interactive map, and exports the processed data in GeoJSON format.
 
@@ -22,6 +22,7 @@ You can install the required packages using the following command:
 pip install pandas folium
 ```
 
+
 ## Usage
 1. **Download the Data**:
    Download the building footprint data from the [Microsoft Global ML Building Footprints GitHub repository](https://github.com/microsoft/GlobalMLBuildingFootprints).
@@ -38,15 +39,21 @@ pip install pandas folium
 4. **Outputs**:
    - A GeoJSON file (`bina_konumlari.geojson`) containing processed building data.
    - An interactive map saved as an HTML file (`bina_konumlari.html`).
+![resim](https://github.com/user-attachments/assets/6494ecca-876b-4cb4-b8ab-67ac4410acc8)
 
 ## File Descriptions
-1. **`read_data.py`**:
+1. **`quadkey_list.py`**:
+   - Identifies data within Ankara province boundaries from the entire Turkey dataset available at [this source](https://minedbuildings.z5.web.core.windows.net/global-buildings/dataset-links.csv). It provides the quadkey values of the data within Ankara's boundaries to the user.
+
+![resim](https://github.com/user-attachments/assets/7ccc97d5-10c4-4e23-8c81-f1ed6ded5226)
+
+2. **`read_data.py`**:
    - **`read_geojson_data()`**: Reads compressed GeoJSON data and converts it into a structured DataFrame.
    - **`export_to_geojson()`**: Exports processed data to a new GeoJSON file.
    - **`visualize_buildings()`**: Creates an interactive map of building locations using OpenStreetMap.
+   
+![resim](https://github.com/user-attachments/assets/79b36ff1-7fef-4fb9-9425-c542b35ad825)
 
-2. **`quadkey_list.py`**:
-   - Identifies data within Ankara province boundaries from the entire Turkey dataset available at [this source](https://minedbuildings.z5.web.core.windows.net/global-buildings/dataset-links.csv). It provides the quadkey values of the data within Ankara's boundaries to the user.
 
 ## Example Outputs
 **DataFrame Overview:**
