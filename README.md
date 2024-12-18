@@ -46,7 +46,8 @@ pip install pandas folium
 1. **`quadkey_list.py`**:
    - Identifies data within Ankara province boundaries from the entire Turkey dataset available at [this source](https://minedbuildings.z5.web.core.windows.net/global-buildings/dataset-links.csv). It provides the quadkey values of the data within Ankara's boundaries to the user.
 
-![resim](https://github.com/user-attachments/assets/7ccc97d5-10c4-4e23-8c81-f1ed6ded5226)
+![resim](https://github.com/user-attachments/assets/b8ef5430-af9e-4f9e-9ed2-5f9f5318b99b)
+
 
 2. **`read_data.py`**:
    - **`read_geojson_data()`**: Reads compressed GeoJSON data and converts it into a structured DataFrame.
