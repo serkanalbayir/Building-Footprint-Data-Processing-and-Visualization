@@ -1,4 +1,5 @@
-![resim](https://github.com/user-attachments/assets/f0594e60-8879-43b6-80e2-c4e65cfd0145)# Processing and Visualization of Building Footprint Data
+
+# Processing and Visualization of Building Footprint Data
 
 This repository contains a Python script for processing and visualizing building footprint data derived from the [Microsoft Global ML Building Footprints](https://github.com/microsoft/GlobalMLBuildingFootprints) project. The script processes GeoJSON data, visualizes it on an interactive map, and exports the processed data in GeoJSON format.
 
@@ -72,4 +73,3 @@ This project is open-source and available under the MIT License. See the `LICENS
 
 ---
 For questions or contributions, feel free to open an issue or submit a pull request.
-
