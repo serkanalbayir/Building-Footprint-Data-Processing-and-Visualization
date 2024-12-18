@@ -1,0 +1,3 @@
+https://minedbuildings.z5.web.core.windows.net/global-buildings/dataset-links.csv
+
+https://github.com/microsoft/GlobalMLBuildingFootprints/tree/main?tab=readme-ov-file#will-there-be-more-data-coming-for-other-geographies
